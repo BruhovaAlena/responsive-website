@@ -160,7 +160,7 @@ header .fa-bars {
 
 .about .row .video-container video {
   width: 100%;
-  border: 0.5rem solid green;
+  border: 0.3rem solid darkgreen;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem lightgray;
   object-fit: cover;
@@ -248,8 +248,9 @@ header .fa-bars {
   line-height: 5rem;
   font-size: 2rem;
   width: 50%;
-  background-color: darkgreen;
+  background-color: lightgray;
   color: black;
+  font-weight: 600;
 }
 
 .products .box-container .box .image .icons .cart-btn {
@@ -259,7 +260,7 @@ header .fa-bars {
 }
 
 .products .box-container .box .image .icons a:hover {
-  background-color: lightgray;
+  background-color: darkgreen;
 }
 
 .products .box-container .box .content {
@@ -407,6 +408,7 @@ header .fa-bars {
 }
 .footer .credit {
   text-align: center;
+  font-weight: 600;
   padding: 1.5rem;
   margin-top: 1.5rem;
   padding-top: 2.5rem;
@@ -443,8 +445,8 @@ header .fa-bars {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: bisque;
-    border-top: 0.1rem solid red;
+    background-color: white;
+    border-top: 0.1rem solid darkgreen;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   header #toggler:checked ~ .navbar {
@@ -454,9 +456,13 @@ header .fa-bars {
   header .navbar a {
     margin: 1.5rem;
     padding: 1.5rem;
-    background-color: green;
-    border: 1rem solid black;
+    background-color: white;
+    border: 0.1rem solid darkgreen;
     display: block;
+    border-radius: 10px;
+  }
+  header .navbar a:hover {
+    background-color: lightgrey;
   }
   .home .content h3 {
     font-size: 5rem;
