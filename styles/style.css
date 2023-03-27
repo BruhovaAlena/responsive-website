@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:wght@100&family=Roboto+Mono:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Delicious+Handrawn&family=Montserrat:wght@100&family=Roboto+Mono:wght@200&display=swap');
 
 * {
@@ -33,7 +31,8 @@ section {
   color: black;
   padding: 1rem;
   margin: 2rem 0;
-  background-color: lightgray;
+  border-radius: 0.5rem;
+  background-color: rgb(108, 175, 108);
 }
 .heading span {
   color: darkgreen;
@@ -48,6 +47,7 @@ section {
   padding: 0.9rem 3.5rem;
   cursor: pointer;
   font-size: 1.7rem;
+  font-weight: 600;
 }
 
 .btn:hover {
@@ -81,7 +81,8 @@ header .logo span {
 header .navbar a {
   font-size: 2rem;
   padding: 0 1.5rem;
-  color: black;
+  font-weight: 600;
+  color: rgb(163, 162, 162);
 }
 
 header .navbar a:hover {
@@ -127,21 +128,22 @@ header .fa-bars {
 
 .home .content h3 {
   font-size: 6rem;
-  color: black;
-  /* font-family: 'Delicious Handrawn', cursive; */
+  color: darkgreen;
   font-family: 'Caveat', cursive;
 }
 .home .content span {
   font-size: 3.5rem;
-  color: lightgray;
   padding: 1rem 0;
   line-height: 1.5;
+  font-weight: 600;
+  color: black;
 }
 .home .content p {
   font-size: 1.5rem;
   color: black;
   padding: 1rem 0;
   line-height: 1.5;
+  font-weight: 600;
 }
 
 .about .row {
@@ -187,10 +189,11 @@ header .fa-bars {
 }
 .about .row .content p {
   font-size: 1.5rem;
-  color: black;
   padding: 0.5rem 0;
   padding-top: 1rem;
   line-height: 1.5;
+  font-weight: 600;
+  color: rgb(163, 162, 162);
 }
 
 .products .box-container {
@@ -249,18 +252,18 @@ header .fa-bars {
   font-size: 2rem;
   width: 50%;
   background-color: lightgray;
-  color: black;
   font-weight: 600;
+  color: white;
 }
 
 .products .box-container .box .image .icons .cart-btn {
-  border-left: 0.1rem solid black;
-  border-right: 0.1rem solid black;
+  border-left: 0.1rem solid white;
+  border-right: 0.1rem solid white;
   width: 100%;
 }
 
 .products .box-container .box .image .icons a:hover {
-  background-color: darkgreen;
+  background-color: rgb(108, 175, 108);
 }
 
 .products .box-container .box .content {
@@ -280,9 +283,10 @@ header .fa-bars {
 }
 .products .box-container .box .content .price span {
   font-size: 2rem;
-  color: lightgray;
   font-weight: lighter;
   text-decoration: line-through;
+  font-weight: 600;
+  color: rgb(163, 162, 162);
 }
 
 .review .box-container {
@@ -309,15 +313,17 @@ header .fa-bars {
 }
 
 .review .box-container .box .stars i {
-  color: black;
+  color: darkgreen;
   font-size: 2rem;
 }
 .review .box-container .box p {
-  color: darkgreen;
+  color: rgb(163, 162, 162);
   font-size: 1.5rem;
   line-height: 1.5;
   padding-top: 2rem;
+  font-weight: 600;
 }
+
 .review .box-container .box .user {
   display: flex;
   align-items: center;
@@ -336,7 +342,8 @@ header .fa-bars {
 }
 .review .box-container .box .user span {
   font-size: 1.5rem;
-  color: darkgreen;
+  font-weight: 600;
+  color: rgb(163, 162, 162);
 }
 
 .contact .row {
@@ -394,12 +401,14 @@ header .fa-bars {
 }
 .footer .box-container .box a {
   display: block;
-  color: black;
   font-size: 1.5rem;
   padding: 1rem 0;
+  font-weight: 600;
+  color: rgb(163, 162, 162);
 }
 .footer .box-container .box a:hover {
-  color: lightgray;
+  color: darkgreen;
+  font-weight: 600;
   text-decoration: underline;
 }
 
@@ -420,7 +429,7 @@ header .fa-bars {
   color: darkgreen;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   html {
     font-size: 55%;
   }
@@ -472,7 +481,7 @@ header .fa-bars {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 576px) {
   html {
     font-size: 50%;
   }
